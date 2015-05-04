@@ -1,0 +1,49 @@
+# http://pujol.io
+server {
+	listen 80;
+	listen [::]:80 default_server ipv6only=on;
+
+	server_name www.pujol.io pujol.io;
+
+	return 301 https://$server_name$request_uri;
+}
+
+# https://pujol.io
+server {
+	listen 443;
+	listen [::]:443 default_server ipv6only=on;
+
+	server_name www.pujol.io pujol.io;
+
+	root /home/pujol.io/www;
+	index index.html index.htm index.php;
+	
+	access_log <logs_path>/www_access.log;
+	error_log <logs_path>/www_error.log;
+
+	ssl on;
+	ssl_certificate <ssl_path>/pujol.io.crt;
+	ssl_certificate_key <ssl_path>/pujol.io.key;
+	ssl_session_timeout 5m;
+	ssl_protocols SSLv3 TLSv1;
+	ssl_ciphers ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv3:+EXP;
+	ssl_prefer_server_ciphers on;
+	
+	location /admin {
+		index index.php index.html index.htm;
+		try_files $uri $uri/ /index.php?$args;
+		auth_basic "Admin Area";
+		auth_basic_user_file /etc/nginx/htpasswd;
+	}
+
+	error_page 404 500 502 503 504 /404.php;
+
+	location ~ \.php$ {
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+		fastcgi_pass unix:/var/run/php5-fpm.sock;
+		fastcgi_index index.php;
+		fastcgi_param HTTPS on;
+		include fastcgi_params;
+		try_files $uri =404;
+	}
+}
