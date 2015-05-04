@@ -21,5 +21,6 @@ Edit `app/config.php`, you need to change
 
 The website is under license GNU GPL v3.0
 
-The design is from [html5up.net](http://html5up.net/) licensed under the Creative Commons Attribution 3.0 License.
+The design is from [html5up.net](http://html5up.net/) licensed under the
+Creative Commons Attribution 3.0 License.
 
