@@ -1,0 +1,16 @@
+/*
+	Alexandre PUJOL & html5up.net
+	Free for personal and commercial use under the CCA 3.0 license
+*/
+
+/* BG */
+
+	#bg {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	}
+
+/* Type */
+
+	body, input, select, textarea {
+		color: #fff;
+	}
