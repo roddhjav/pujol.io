@@ -3,14 +3,33 @@
 	Free for personal and commercial use under the CCA 3.0 license
 */
 
-/* BG */
+/* List */
 
-	#bg {
-		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	ul.icons li a {
+		-ms-behavior: url("assets/js/PIE.htc");
 	}
 
-/* Type */
+		ul.icons li a:before {
+			text-align: center;
+			font-size: 26px;
+		}
 
-	body, input, select, textarea {
+/* Main */
+
+	#main {
+		-ms-behavior: url("assets/js/PIE.htc");
+	}
+
+		#main .avatar img {
+			-ms-behavior: url("assets/js/PIE.htc");
+		}
+
+/* Footer */
+
+	#footer {
 		color: #fff;
 	}
+
+		#footer .copyright li {
+			border-left: solid 1px #fff;
+		}
