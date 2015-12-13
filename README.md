@@ -23,7 +23,7 @@ But you **MUST** give me and HTML5UP credit.
 
 ## Credits
 * Image: Unsplash ([unsplash.com](https://unsplash.com))
-* Icons: Font Awesome ()[fortawesome.github.io/Font-Awesome/](https://fortawesome.github.io/Font-Awesome/))
+* Icons: Font Awesome ([fortawesome.github.io/Font-Awesome/](https://fortawesome.github.io/Font-Awesome/))
 * Other: 
  * html5shiv.js (@afarkas @jdalton @jon_neal @rem)
  * CSS3 Pie ([css3pie.com](http://css3pie.com) )
