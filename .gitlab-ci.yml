@@ -1,11 +1,10 @@
+image: publysher/hugo
+
 pages:
-  stage: deploy
   script:
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
+  - hugo
   artifacts:
     paths:
     - public
   only:
-  - master
+  - hugo
