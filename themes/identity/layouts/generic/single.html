@@ -1,0 +1,13 @@
+{{ partial "header" . }}
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Main -->
+		<section id="main">
+			<header>
+				<h1>{{ .Title }}</h1>
+				<p>{{ .Description }}</p>
+			</header>
+			{{ .Render "featured" }}
+			{{ .Content }}
+		</section>
+{{ partial "footer" . }}

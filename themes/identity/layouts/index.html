@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Main -->
+		<section id="main">
+			<header>
+				{{ if ne .Site.Params.intro.pic.src "" }}
+				<span class="avatar"><img src="{{ .Site.Params.intro.pic.src }}" alt="{{ .Site.Params.intro.pic.alt }}" /></span>
+				{{ end }}
+				
+				<h1>{{ .Site.Title }}</h1>
+				{{ if ne .Site.Params.description1 "" }}
+				<p>
+					{{ .Site.Params.description1 }}<br />
+					{{ .Site.Params.description2 }}<br />
+					{{ .Site.Params.description3 }}
+				</p>
+				{{ end }}	
+			</header>
+			<footer>
+				<ul class="icons">
+					{{ partial "social_icon" . }}
+				</ul>
+			</footer>
+		</section>			
+{{ partial "footer" . }}
