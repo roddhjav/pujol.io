@@ -1,10 +1,11 @@
 image: publysher/hugo
 
 pages:
+  stage: deploy
   script:
   - hugo
   artifacts:
     paths:
     - public
   only:
-  - hugo
+  - master
