@@ -7,7 +7,9 @@
 				<h1>{{ .Title }}</h1>
 				<p>{{ .Description }}</p>
 			</header>
-			{{ .Render "featured" }}
-			{{ .Content }}
+			<article>
+				{{ .Render "featured" }}
+				{{ .Content }}
+			</article>
 		</section>
 {{ partial "footer" . }}
