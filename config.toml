@@ -10,61 +10,42 @@ paginate              = 3
 
 
 [params]
-	description1      = "Ph.D. Student in computer security at"
-	description2      = "University College Dublin (Ireland)"
-	description3      = "and dual degree engineer manager."
+    description1      = "Ph.D. Student in computer security at"
+    description2      = "University College Dublin (Ireland)"
+    description3      = "and dual degree engineer manager."
     keywords          = "Alexandre,Pujol,Polytech Marseille,KedgeBS,computer science,engineer,Businnes School,dual degree,Master in Management,computer security,security,linux,cloud"
 
 [params.intro.pic]
-    src              = "/assets/images/avatar.jpg"
-    circle           = true
-    imperfect        = false
-    width            = ""
-    alt              = "Alexandre Pujol"
-    
-[params.about]
-	head              = "About me"
-	paragraph         = "I am curently a Ph.D student in Computer Science in Ireland. I also have a master degree in computer science from Polytech Marseille, and a Master in Management degree from Kedge Business School (Marseille, France)."
-
-[params.works]
-	head              = "My work"
-	message           = "There is a short description of my researchs work."
-	
-[params.contact]
-	head              = "Contact Me"
-	message           = "Please use email enryption with GnuPG for every message."
+    src               = "/assets/images/avatar.jpg"
+    circle            = true
+    imperfect         = false
+    width             = ""
+    alt               = "Alexandre Pujol"
 
 
 
-# Set up your menu items in the navigation bar
-# You can use identifier to prepend a font awesome icon to your text
-[[menu.main]]
-    name              = "Home"
-    url               = "/"
-    identifier        = "fa fa-home"
-    weight            = 1
-    
 [[menu.main]]
     name              = "My GPG Keys"
-    url               = "/keys"
+    url               = "/keys/"
     identifier        = "fa fa-key"
-    weight            = 2
+    weight            = 1
 
 [[menu.main]]
-    name              = "Researchs"
-    url               = "/researchs"
-    identifier        = "fa fa-lightbulb-o"
-    weight            = 3
+    name              = "My Publications"
+    url               = "/pub/"
+    identifier        = "fa fa-leanpub"
+    weight            = 2
 
 
 
 [social]
-	gpgkey            = "/keys/"
+    gpgkey            = ""
+    pub               = ""
     gitlab            = "pujol"
     github            = "alexandrepujol"
     linkedin          = "alexandrepujol"
     googlescholar     = "LMPIGiYAAAAJ&hl"
-	twitter           = ""
+    twitter           = ""
     bitbucket         = ""
     jsfiddle          = ""
     codepen           = ""
