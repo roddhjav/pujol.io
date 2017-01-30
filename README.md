@@ -1,31 +1,48 @@
-# https://pujol.io source code
+# Source code for [https://pujol.io](https://pujol.io). [![build status](https://gitlab.com/roddhjav/pujol.gitlab.io/badges/master/build.svg)](https://gitlab.com/roddhjav/pujol.gitlab.io/commits/master)
 
-The source code of my website [pujol.io](https://pujol.io).
+# Installation
 
-## Installation
-This is a static website. Therefore there is no installation needed.
+### GitLab CI
 
-## Design
-Thank [HTML5UP](http://html5up.net) for the main design.
+This project's static Pages are built by [GitLab CI](https://about.gitlab.com/gitlab-ci/),
+following the steps defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
 
-## Image
-Images courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+		image: publysher/hugo
+
+		pages:
+		  script:
+		  - hugo
+		  artifacts:
+			paths:
+			- public
+		  only:
+		  - master
+
+
+### Building locally
+
+To work locally with this project, you'll have to follow the steps below:
+
+1. Fork, clone or download this project
+1. Install Hugo
+1. Preview your project: `hugo server`
+1. Add content
+1. Generate the website: `hugo` (optional)
+
+Read more at Hugo's [documentation](https://gohugo.io/overview/introduction/).
+
+If you clone or download this project to your local computer and run `hugo server`,
+your site can be accessed under `localhost:1313`.
 
 ## License
-The website is under the [The Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
-Which means you can:
-* Use them for personal stuff
-* Use them for commercial stuff
-* Change them however you like
-
-But you **MUST** give me and HTML5UP credit.
+See [LICENSE](LICENSE.md)
 
 ## Credits
 * Image: Unsplash ([unsplash.com](https://unsplash.com))
 * Icons: Font Awesome ([fortawesome.github.io/Font-Awesome/](https://fortawesome.github.io/Font-Awesome/))
 * Other: 
- * html5shiv.js (@afarkas @jdalton @jon_neal @rem)
- * CSS3 Pie ([css3pie.com](http://css3pie.com) )
- * Respond.js ([j.mp/respondjs](http://j.mp/respondjs))
- * Skel ([skel.io](http://skel.io))
+* html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+* CSS3 Pie ([css3pie.com](http://css3pie.com) )
+* Respond.js ([j.mp/respondjs](http://j.mp/respondjs))
+* Skel ([skel.io](http://skel.io))
+
