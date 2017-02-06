@@ -1,4 +1,4 @@
-# Source code for [https://pujol.io](https://pujol.io). [![build status](https://gitlab.com/roddhjav/pujol.gitlab.io/badges/master/build.svg)](https://gitlab.com/roddhjav/pujol.gitlab.io/commits/master)
+# Source code for [https://pujol.io](https://pujol.io). [![build status](https://gitlab.com/roddhjav/roddhjav.gitlab.io/badges/master/build.svg)][1]
 
 # Installation
 
@@ -46,3 +46,4 @@ See [LICENSE](LICENSE.md)
 * Respond.js ([j.mp/respondjs](http://j.mp/respondjs))
 * Skel ([skel.io](http://skel.io))
 
+[1]: https://gitlab.com/roddhjav/roddhjav.gitlab.io/commits/master
