@@ -1,0 +1,10 @@
+<div class="social">
+  <h4>
+    {{ with .Site.Social.gitlab }}<a href="https://gitlab.com/u/{{.}}"><i class="fa fa-gitlab"></i></a>{{ end }}
+    {{ with .Site.Social.github }}<a href="https://github.com/{{.}}"><i class="fa fa-github"></i></a>{{ end }}
+    {{ with .Site.Social.linkedin }}<a href="https://linkedin.com/in/{{.}}"><i class="fa fa-linkedin"></i></a>{{ end }}
+    {{ with .Site.Social.googlescholar }}<a href="https://scholar.google.com/citations?user={{.}}"><i class="fa fa-graduation-cap"></i></a>{{ end }}
+    {{ with .Site.Social.twitter }}<a href="https://twitter.com/{{.}}"><i class="fa fa-twitter"></i></a>{{ end }}
+    {{ with .Site.Social.email }}<a href="mailto:{{.}}"><i class="fa fa-envelope"></i></a>{{ end }}
+  </h4>
+</div>
