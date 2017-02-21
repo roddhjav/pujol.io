@@ -1,73 +1,56 @@
 baseurl               = "https://pujol.io"
-languageCode          = "en-us"
+languageCode          = "en-US"
 title                 = "Alexandre Pujol"
-theme                 = "identity"
+theme                 = "sustain"
 preserveTaxonomyNames = true
 disableRSS            = true
 watch                 = true
 paginate              = 3
 
-
-
+#
+# Parameters
+#
 [params]
-    description1      = "Ph.D. Student in computer security at"
-    description2      = "University College Dublin (Ireland)"
-    description3      = "and dual degree engineer manager."
-    keywords          = "Alexandre,Pujol,Polytech Marseille,KedgeBS,computer science,engineer,Businnes School,dual degree,Master in Management,computer security,security,linux,cloud"
+  avatar      = "avatar.png"
+  author      = "Alexandre Pujol"
+  description = "Ph.D. Student in computer security at University College Dublin (Ireland)."
+  keywords    = "Alexandre,Pujol,Phd Student,research,UCD,University College Dublin,Polytech Marseille,KedgeBS,computer science,engineer,Businnes School,dual degree,Master in Management,computer security,security,linux,cloud"
+  source      = "https://gitlab.com/roddhjav/roddhjav.gitlab.io"
+  fingerprint = "885A 3B33 F202 34A1 D371 F4FB C983 257B 9BD4 2EC3"
 
-[params.intro.pic]
-    src               = "/assets/images/avatar.jpg"
-    circle            = true
-    imperfect         = false
-    width             = ""
-    alt               = "Alexandre Pujol"
+[permalinks]
+  post = "/:year/:month/:day/:slug"
 
+#
+# Menu
+#
+[[menu.main]]
+  name = "GPG Keys"
+  identifier = "keys"
+  weight = 100
+  url = "/keys"
 
 
 [[menu.main]]
-    name              = "My GPG Keys"
-    url               = "/keys/"
-    identifier        = "fa fa-key"
-    weight            = 1
+  name = "Research"
+  identifier = "research"
+  weight = 300
+  url = "/research"
 
 [[menu.main]]
-    name              = "My Publications"
-    url               = "/pub/"
-    identifier        = "fa fa-leanpub"
-    weight            = 2
+  name = "Publications"
+  identifier = "pub"
+  weight = 400
+  url = "/pub"
 
 
-
-[social]
-    gpgkey            = ""
-    pub               = ""
-    gitlab            = "roddhjav"
-    github            = "roddhjav"
-    linkedin          = "alexandrepujol"
-    googlescholar     = "LMPIGiYAAAAJ&hl"
-    twitter           = ""
-    bitbucket         = ""
-    jsfiddle          = ""
-    codepen           = ""
-    foursquare        = ""
-    dribbble          = ""
-    deviantart        = ""
-    behance           = ""
-    flickr            = ""
-    instagram         = ""
-    youtube           = ""
-    vimeo             = ""
-    vine              = ""
-    medium            = ""
-    wordpress         = ""
-    tumblr            = ""
-    xing              = ""
-    slideshare        = ""
-    stackoverflow     = ""
-    reddit            = ""
-    pinterest         = ""
-    googleplus        = ""
-    facebook          = ""
-    facebook_admin    = ""
-    twitter_domain    = ""
-    email             = "alexandre@pujol.io"
+#
+# Social
+#
+[Social]
+  gitlab        = "roddhjav"
+  github        = "roddhjav"
+  twitter       = "roddhjav"
+  linkedIn      = "alexandrepujol"
+  googlescholar = "LMPIGiYAAAAJ&hl"
+  email         = "alexandre@pujol.io"
