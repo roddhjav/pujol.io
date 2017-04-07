@@ -51,6 +51,7 @@ paginate              = 3
   gitlab        = "roddhjav"
   github        = "roddhjav"
   twitter       = "roddhjav"
+  mastodon      = "https://mamot.fr/@roddhjav"
   linkedIn      = "alexandrepujol"
   googlescholar = "LMPIGiYAAAAJ&hl"
   email         = "alexandre@pujol.io"
