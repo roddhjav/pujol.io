@@ -30,6 +30,11 @@ paginate              = 3
   weight = 100
   url = "/keys"
 
+[[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog"
 
 [[menu.main]]
   name = "Research"
@@ -43,6 +48,11 @@ paginate              = 3
   weight = 400
   url = "/pub"
 
+# [[menu.main]]
+#   name = "Projects"
+#   identifier = "projects"
+#   weight = 500
+#   url = "/projects"
 
 #
 # Social

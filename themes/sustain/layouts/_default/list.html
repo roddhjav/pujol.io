@@ -18,6 +18,7 @@
                    <h5 style="text-align: left">
                     <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
                   </h5>
+                  {{ .Description | markdownify }}
                 </div>
               </div>
             {{ end }}
