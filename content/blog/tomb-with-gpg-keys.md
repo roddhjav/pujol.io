@@ -8,13 +8,13 @@ tags = [
     "keys",
     "gpg",
 ]
-date = "2017-04-16"
+date = "2017-04-17"
 categories = [
     "encryption",
 ]
 +++
 
-[`Tomb`][tomb] is a simple tool to manage encrypted storage on Linux using LUKS, dmcrypt, GPG and other well know linux software. It generates encrypted storage folders to be opened and closed using their associated keyfiles, which are also protected with a password chosen by the user.
+[Tomb][tomb] is a simple tool to manage encrypted storage on Linux using LUKS, dmcrypt, GPG and other well know linux software. It generates encrypted storage folders to be opened and closed using their associated keyfiles, which are also protected with a password chosen by the user.
 
 A tomb is like a locked folder that can be safely transported and hidden in a filesystem; its keys can be kept separate, for instance keeping the tomb file on your computer harddisk and the key files on a USB stick.
 
@@ -24,7 +24,7 @@ It has some really neat and easy to use features (see the [tomb website][tomb] a
 1. Mounting files and folders in predefined places using bind-hooks
 1. Hiding keys in picture-files using steganography
 
-And since `Tomb 2.4`, Tomb supports asymmetric encryption of Tomb keys using public/private GPG key pairs. It is now possible to protect a Tomb key using a GPG key (which can also be password-less for automations) as well encrypt a Tomb key for multiple recipients (list of GPG ids).
+Since [Tomb 2.4][tombrelease], Tomb supports asymmetric encryption of Tomb keys using public/private GPG key pairs. It is now possible to protect a Tomb key using a GPG key (which can also be password-less for automations) as well encrypt a Tomb key for multiple recipients (list of GPG ids).
 
 
 The purpose of this blog is to explain how use Tomb with the new support of gpg key.
@@ -46,8 +46,8 @@ With a GPG key you have three different ways to protect your to tomb key:
 The three new tomb options are:
 
 * `-g/--gpgid` a flag to activate the use of a GnuPG key in tomb.
-* `-r` to provide GnuPG recipients (separated by coma)
-* `-R` to provide GnuPG hidden recipients (separated by coma)
+* `-r` to provide GnuPG recipients (separated by comma)
+* `-R` to provide GnuPG hidden recipients (separated by comma)
 
 
 ## Create a tomb using a GPG key
@@ -107,7 +107,7 @@ Are supported, you need to set it up in your GPG keyring and it should works out
 
 **Share a tomb**
 
-A tomb key can be encrypted with more than one recipient. Therefore, a tomb can be shared between different user. The multiple recipients are given using the `-r/-R` option and must be separated by a coma `,`.
+A tomb key can be encrypted with more than one recipient. Therefore, a tomb can be shared between different user. The multiple recipients are given using the `-r/-R` option and must be separated by a comma `,`.
 
 **Steganography**
 
@@ -122,4 +122,5 @@ $ tomb open test.tomb -k cat.jpg -g
 ```
 
 [tomb]: https://www.dyne.org/software/tomb/
+[tombrelease]: https://files.dyne.org/tomb/
 [paranoid]: http://crunchbang.org/forums/viewtopic.php?id=24722
