@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/roddhjav
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pujol.io
+  * I am roddhjav (https://keybase.io/roddhjav) on keybase.
+  * I have a public key ASDAtjLsRA96qg7HwCo-loN7eErLTgdLK9P8fI1TIktCowo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c0b632ec440f7aaa0ec7c02a3e96837b784acb4e074b2bd3fc7c8d53224b42a30a",
+            "host": "keybase.io",
+            "kid": "0120c0b632ec440f7aaa0ec7c02a3e96837b784acb4e074b2bd3fc7c8d53224b42a30a",
+            "uid": "6b819ce632c831684a8715cffdcb3419",
+            "username": "roddhjav"
+        },
+        "service": {
+            "hostname": "pujol.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1493502723,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1493502611,
+        "hash": "f7b1a4a3e610911ef949cfdf5ab18f08d82e3c196a5588824737ac5b101ad3843f0a4bec76cf0087ce39fd202759ff877001a4c3a3394183d537123ecbe5bdeb",
+        "seqno": 1045321
+    },
+    "prev": "57a2424d491ec41ba770b04beb82aadd7494d22ba8c005205aad1adcfa26534e",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwLYy7EQPeqoOx8AqPpaDe3hKy04HSyvT/HyNUyJLQqMKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzBiNjMyZWM0NDBmN2FhYTBlYzdjMDJhM2U5NjgzN2I3ODRhY2I0ZTA3NGIyYmQzZmM3YzhkNTMyMjRiNDJhMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzBiNjMyZWM0NDBmN2FhYTBlYzdjMDJhM2U5NjgzN2I3ODRhY2I0ZTA3NGIyYmQzZmM3YzhkNTMyMjRiNDJhMzBhIiwidWlkIjoiNmI4MTljZTYzMmM4MzE2ODRhODcxNWNmZmRjYjM0MTkiLCJ1c2VybmFtZSI6InJvZGRoamF2In0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJwdWpvbC5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIxIn0sImN0aW1lIjoxNDkzNTAyNzIzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTM1MDI2MTEsImhhc2giOiJmN2IxYTRhM2U2MTA5MTFlZjk0OWNmZGY1YWIxOGYwOGQ4MmUzYzE5NmE1NTg4ODI0NzM3YWM1YjEwMWFkMzg0M2YwYTRiZWM3NmNmMDA4N2NlMzlmZDIwMjc1OWZmODc3MDAxYTRjM2EzMzk0MTgzZDUzNzEyM2VjYmU1YmRlYiIsInNlcW5vIjoxMDQ1MzIxfSwicHJldiI6IjU3YTI0MjRkNDkxZWM0MWJhNzcwYjA0YmViODJhYWRkNzQ5NGQyMmJhOGMwMDUyMDVhYWQxYWRjZmEyNjUzNGUiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC0Brr+U2IuH/UVRTITIGFEFcwAyxLUEXyhfhpYBA4lV1C7B6BlJfJJaHWDDSo3SozUXTo+r/dLv8fcaHx15+cBqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgl46DclK6nkAf5hQLWg6z7iF3hjeROIF5zQaF/GFhzpejdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/roddhjav
+
+==================================================================
