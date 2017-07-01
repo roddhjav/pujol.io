@@ -9,8 +9,9 @@ blog        = "false"
 
 ### Dog ORAM: A Distributed and Shared Oblivious RAM Model with Server Side Computation.
 
-* Alexandre Pujol, Christina Thorpe
-* 2015 IEEE/ACM 8th International Conference on Utility and Cloud Computing.
+*Alexandre Pujol, Christina Thorpe*
+
+*IEEE/ACM 8th International Conference on Utility and Cloud Computing (UCC 2015).*
 
 **Abstract**
 
