@@ -1,3 +1,4 @@
+/* Local fonts */
 @font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;
@@ -17,16 +18,15 @@
   src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(/fonts/sourcesanspro-bold.woff) format('woff');
 }
 
-/* Main page with stikky-footer
--------------------------------------------------- */
-html,
-body {
+/* Main page with stikky-footer */
+html, body {
   height: 100%;
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #27A822;
 }
+
 /* Wrapper for page content to push down footer */
 #wrap {
   padding-bottom: 50px;
@@ -38,9 +38,7 @@ body {
   /*padding: 0 0 60px;*/
 }
 
-/* Navbar
--------------------------------------------------- */
-
+/* Navbar */
 .navbar-static-top {
   margin-bottom: 10px;
 }
@@ -103,9 +101,7 @@ body {
   }
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-
+/* Custom page CSS */
 .container {
   width: auto;
   max-width: 800px;
@@ -173,7 +169,6 @@ body {
 .page-not-found {
   padding-top: 20%;
 }
-
 .blogpost{
   text-align: left;
   line-height: 30px;
@@ -193,9 +188,7 @@ a:hover.btn.btn-default {
   color: #267723;
 }
 
-/* Footer
--------------------------------------------------- */
-
+/* Footer */
 .footer {
   text-decoration: none !important;
 }
@@ -205,9 +198,3 @@ a:hover.btn.btn-default {
 div.footer{
   border-bottom: 5px solid #27A822;;
 }
-/* Set the fixed height of the footer here */
-/*.footer {
-  height: 50px;
-  padding-bottom: 15px;
-
-}*/
