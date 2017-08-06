@@ -9,12 +9,14 @@ blog        = "false"
 ## Email Key
 The following is my GPG key for email communication:
 
-		sec   rsa4096 2017-02-04 [SC] [expires: 2017-08-03]
-		      E17E AB91 1D01 BEDA B150  BBBF CAFE 9215 B58C 7C3B
-		uid           [ultimate] Alexandre Pujol <alexandre@pujol.io>
-		ssb   rsa4096 2017-02-04 [E] [expires: 2017-08-03]
+```
+pub   rsa4096/0xCE0EAD7F07180C35 2017-08-06 [SCE] [expires: 2019-08-06]
+      Key fingerprint = 6C84 7129 A72F 6144 E629  9C92 CE0E AD7F 0718 0C35
+uid                   [ultimate] Alexandre Pujol (Email) <alexandre.pujol@ucdconnect.ie>
+uid                   [ultimate] Alexandre Pujol (Email) <alexandre@pujol.io>
+```
 
-{{< get-key "0xcafe9215b58c7c3b" "B58C7C3B" >}}
+{{< get-key "0xce0ead7f07180c35" "07180C35" >}}
 
 ## Code Signing Key
 The following key is used to sign commits, tags and releases:
