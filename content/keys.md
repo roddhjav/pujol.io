@@ -6,7 +6,7 @@ categories  = []
 blog        = "false"
 +++
 
-## Email Key
+## Email Encryption Key
 The following is my GPG key for email communication:
 
 ```
@@ -21,8 +21,10 @@ uid                   [ultimate] Alexandre Pujol (Email) <alexandre@pujol.io>
 ## Code Signing Key
 The following key is used to sign commits, tags and releases:
 
-		sec   rsa4096 2017-01-09 [SC]
-		      06A2 6D53 1D56 C42D 6680  5049 C546 9996 F0DF 68EC
-		uid           [ultimate] Alexandre Pujol (Git) <alexandre@pujol.io>
+```
+pub   rsa4096/0xC5469996F0DF68EC 2017-01-09 [SC]
+      Key fingerprint = 06A2 6D53 1D56 C42D 6680  5049 C546 9996 F0DF 68EC
+uid                   [ultimate] Alexandre Pujol (Git) <alexandre@pujol.io>
+```
 
 {{< get-key "0xc5469996f0df68ec" "F0DF68EC" >}}
