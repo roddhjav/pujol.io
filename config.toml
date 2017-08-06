@@ -17,6 +17,7 @@ paginate              = 3
   keywords    = "Alexandre,Pujol,Phd Student,research,UCD,University College Dublin,Polytech Marseille,KedgeBS,computer science,engineer,Businnes School,dual degree,Master in Management,computer security,security,linux,cloud"
   source      = "https://github.com/roddhjav/pujol.io"
   fingerprint = "6C84 7129 A72F 6144 E629  9C92 CE0E AD7F 0718 0C35"
+  base        = "https://pujol.io"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
