@@ -6,6 +6,7 @@ preserveTaxonomyNames = true
 disableRSS            = true
 watch                 = true
 paginate              = 3
+googleAnalytics       = "UA-104152570-1"
 
 #
 # Parameters
