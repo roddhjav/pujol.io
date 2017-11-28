@@ -34,7 +34,10 @@ and are therefore not practical for application in real-world storage providers.
 
 This work is supported and funded by
 
-* [Irish Research Council][irc], the mission of the Irish Research Council is to enable and sustain a vibrant research community in Ireland by supporting excellent researchers in all disciplines. [#LoveIrishResearch](https://twitter.com/hashtag/LoveIrishResearch)
+* [Irish Research Council][irc] *(grant GOIPG/2016/479)*, the mission of the
+Irish Research Council is to enable and sustain a vibrant research community in
+Ireland by supporting excellent researchers in all disciplines.
+[#LoveIrishResearch](https://twitter.com/hashtag/LoveIrishResearch)
 * The [Lero][lero], the Irish Software Research Centre.
 
 <img src="irc.jpg" alt="irc" width="45%" align="left" />
