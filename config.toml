@@ -16,7 +16,7 @@ googleAnalytics       = "UA-104152570-1"
   author      = "Alexandre Pujol"
   description = "Ph.D. Student in computer security at University College Dublin (Ireland)."
   keywords    = "Alexandre,Pujol,Phd Student,research,UCD,University College Dublin,Polytech Marseille,KedgeBS,computer science,engineer,Businnes School,dual degree,Master in Management,computer security,security,linux,cloud"
-  source      = "https://github.com/roddhjav/pujol.io"
+  source      = "https://gitlab.com/roddhjav/roddhjav.gitlab.io"
   fingerprint = "6C84 7129 A72F 6144 E629  9C92 CE0E AD7F 0718 0C35"
   base        = "https://pujol.io"
 
