@@ -31,7 +31,7 @@ source:
       B5CBB75964E03A159A4CC514F071C943A4668F511882EFBA37F22EF3DF75DC47DE997EDA5C72
 
 validation: |
-  This page is generated from the data at: https://raw.githubusercontent.com/roddhjav/pujol.io/master/data/keys.yml.
+  This page is generated from the data at: https://gitlab.com/roddhjav/roddhjav.gitlab.io/raw/master/data/keys.yml.
   It has been signed with my GPG private key and may be verified using the
   [public key](https://pgp.mit.edu/pks/lookup?search=0xc5469996f0df68ec&op=vindex&fingerprint=on).
   If you have trust in that key, you can verify that this page has not been tampered
