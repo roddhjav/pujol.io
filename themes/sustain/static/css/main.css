@@ -147,6 +147,10 @@ html, body {
   padding-top: -10px;
   text-align: left;
 }
+.panel-sign {
+  text-align: left;
+  font-size: 12px;
+}
 .social {
   padding-top: 12px;
   word-spacing: 25px;

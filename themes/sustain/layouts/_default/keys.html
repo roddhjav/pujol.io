@@ -1,0 +1,33 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+        <div class="container">
+          <div class="blog-post">
+          <h3>
+            <strong><a href="{{ .URL }}">{{ .Site.Data.keys.title }}</a></strong>
+          </h3>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="blogpost">
+              {{ range $i, $el := .Site.Data.keys.source }}
+                <h2>{{ .title }}</h2>
+                <p>{{ .description | markdownify }}</p>
+                <pre><code>{{ .fingerprints }}</code></pre>
+                {{ if eq .type "GPG" }}
+                  <a href="/keys/{{ .longid }}.asc" class="btn btn-default">{{ .shortid }}</a>
+                  <a href="https://pgp.mit.edu/pks/lookup?search={{ .longid }}&op=vindex&fingerprint=on" class="btn btn-default">pgp.mit.edu</a>
+                {{ end }}
+              {{ end }}
+              </div>
+            </div>
+            <p class="panel-sign">
+              {{ .Site.Data.keys.validation | markdownify }}
+            </p>
+          </div>
+        </div>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
