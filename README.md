@@ -1,15 +1,8 @@
-<h1 align="center"><a href="https://pujol.io">https://pujol.io</a></h1>
-<p align="center">
-    <a href="https://gitlab.com/roddhjav/roddhjav.gitlab.io">
-        <img src="https://gitlab.com/roddhjav/roddhjav.gitlab.io/badges/master/build.svg"
-             alt="Build Status" /></a>
-    <a href="https://pujol.io">
-        <img src="https://img.shields.io/website/https/pujol.io.svg"
-             alt="Website Status" /></a>
-    <a href="https://github.com/roddhjav/pujol.io/releases/latest">
-        <img src="https://img.shields.io/github/release/roddhjav/pujol.io.svg?maxAge=600"
-             alt="Last Release" /></a>
-</p>
+# **https://pujol.io**
+
+[![][build]][link] [![][online]][domain] [![][release]][link]
+
+**https://pujol.io source code**
 
 This personal website uses a modified version of the [sustain][sustain-hugo]
 theme for [hugo][hugo]. More than a few personalisation changes, this version of
@@ -67,6 +60,10 @@ your site can be accessed under [localhost:1313][local].
     SOFTWARE.
 
 [domain]: https://pujol.io
+[link]: https://gitlab.com/roddhjav/roddhjav.gitlab.io?style=flat-square
+[build]: https://gitlab.com/roddhjav/roddhjav.gitlab.io/badges/master/build.svg?style=flat-square
+[online]: https://img.shields.io/website/https/pujol.io.svg?style=flat-square
+[release]: https://img.shields.io/github/release/roddhjav/pujol.io.svg?maxAge=600&style=flat-square
 [hugo]: https://gohugo.io/
 [sustain-hugo]: https://github.com/nurlansu/hugo-sustain
 [local]: http://localhost:1313/
