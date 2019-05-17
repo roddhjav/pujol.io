@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@pujol.io
+Encryption: https://pujol.io/keys/0xce0ead7f07180c35.asc
+Preferred-Languages: en, fr
+Canonical: https://pujol.io/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQKTBAEBCgB9FiEEbIRxKacvYUTmKZySzg6tfwcYDDUFAlzevhBfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDZD
+ODQ3MTI5QTcyRjYxNDRFNjI5OUM5MkNFMEVBRDdGMDcxODBDMzUACgkQzg6tfwcY
+DDV6gQ/8DpiNaLe62Lsndoh+9CH2fv9a5fX5lzkusVUuKpM6kKPqEh+B/2rS5fqc
+k3F/6SmnVnOnZWblS7SsSQ1aLF8hFc5SCrmG1+OOvYK6MBky/xAtE1BKcSHInoH1
+NXhKtze+dTNLPRhom54JdkRAiiv5wgDQ0Z32E1HgfxMxyu0PcgjdRIoINEEhLPu5
+QmA6B8NLdwJ/Q/yEl00vnwv3cqdaXvUF6QfjThvEHGLpZNwdScCyKdWkFPfCd4Xt
+5udW798XtPLKDQiRUVF0tznk/9+VsbJPpZeXzdo7TLQO+YDUazfV1MLSMh00y4Fw
+B1JhfJ1v1eC8+tLeEkyd2JwT7+oT9js0L1/2Y59PYg/lbSQODhJ15lBu001miJs9
+i9RsiYHUGexWKBqAq7aeSfz6OTpqsIOFGSWl6bhLuovGEtBPHqVqT6MdJMBgd5vX
+zAjiDKQD3aSn6dW0eKOfqXY4XwJEeQI0RnXf1JP8NGQyq1Vce28rXwSvTNzPwSi8
+dtef9yTwoe/fRCVCIHKj2avKapc/L4siCiwDRgM0EgHV2mUROlDr7pKg3yXdO34o
+V3D8mvsxABb1rwg1UcQg1p0dUaee1xITt8U49tjiidkhcNJ9gpKkifk0wxS34hBo
+a3wCebizvsmUI0DdqYQFYIC535RVVieySSEIFPl7vIHaOLePCp0=
+=xOPt
+-----END PGP SIGNATURE-----
