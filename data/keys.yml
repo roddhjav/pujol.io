@@ -1,18 +1,34 @@
 title: My Keys
 source:
-  - title: Email Encryption Key
-    description: The following is my GPG key for email communication
+  - title: The Master Key
+    description: All my keys are signed by the following Master Signing Key.
     type: GPG
-    longid: '0xce0ead7f07180c35'
-    shortid: 07180C35
+    longid: '0xe0cc7d788da0ebf2'
+    shortid: '8DA0EBF2'
     fingerprints: |
-      pub   rsa4096/0xCE0EAD7F07180C35 2017-08-06 [SCE] [expires 2019-08-06]
-            Key fingerprint = 6C84 7129 A72F 6144 E629  9C92 CE0E AD7F 0718 0C35
+      pub   ed25519/0xE0CC7D788DA0EBF2 2019-07-29 [SC]
+            Key fingerprint = 61F0 2B21 BA25 03A5 2634  5A40 E0CC 7D78 8DA0 EBF2
+      uid                   [ultimate] Alexandre Pujol (Master) <alexandre@pujol.io>
+
+
+  - title: Email Encryption Key
+    description: |
+      The following is my GPG key for email communication. This email key is
+      also signed with my former email key [0xce0ead7f07180c35].
+      [0xce0ead7f07180c35]: /keys/0xce0ead7f07180c35.asc
+    type: GPG
+    longid: '0x5e86ec7730ded671'
+    shortid: '30DED671'
+    fingerprints: |
+      pub   rsa4096/0x5E86EC7730DED671 2019-07-29 [SC] [expires: 2024-07-27]
+            Key fingerprint = BBD1 FEA3 F345 B8FC 72E8  5770 5E86 EC77 30DE D671
       uid                   [ultimate] Alexandre Pujol (Email) <alexandre.pujol@ucdconnect.ie>
       uid                   [ultimate] Alexandre Pujol (Email) <alexandre@pujol.io>
+      sub   rsa4096/0x0482D107FE33DBD3 2019-07-29 [SE] [expires: 2022-01-14]
+
 
   - title: Code Signing Key
-    description: The following key is used to sign commits, tags and releases
+    description: The following key is used to sign commits, tags and releases.
     type: GPG
     longid: '0xc5469996f0df68ec'
     shortid: F0DF68EC
@@ -20,12 +36,3 @@ source:
       pub   rsa4096/0xC5469996F0DF68EC 2017-01-09 [SC]
             Key fingerprint = 06A2 6D53 1D56 C42D 6680  5049 C546 9996 F0DF 68EC
       uid                   [ultimate] Alexandre Pujol (Git) <alexandre@pujol.io>
-
-  - title: Tox
-    description: |
-      The following key is used for [Tox](https://tox.chat) instant messaging
-      application. My [toxme](http://toxme.io) id is `roddhjav@toxme.io` and the
-      following is my public key:
-    type: tox
-    fingerprints: |
-      B5CBB75964E03A159A4CC514F071C943A4668F511882EFBA37F22EF3DF75DC47DE997EDA5C72
