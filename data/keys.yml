@@ -24,8 +24,7 @@ source:
             Key fingerprint = BBD1 FEA3 F345 B8FC 72E8  5770 5E86 EC77 30DE D671
       uid                   [ultimate] Alexandre Pujol (Email) <alexandre.pujol@ucdconnect.ie>
       uid                   [ultimate] Alexandre Pujol (Email) <alexandre@pujol.io>
-      sub   rsa4096/0x0482D107FE33DBD3 2019-07-29 [SE] [expires: 2022-01-14]
-
+      sub   rsa4096/0x0482D107FE33DBD3 2019-07-29 [SE] [expires: 2024-03-12]
 
   - title: Code Signing Key
     description: The following key is used to sign commits, tags and releases.
