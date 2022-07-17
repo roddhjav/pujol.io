@@ -14,8 +14,7 @@ source:
   - title: Email Encryption Key
     description: |
       The following is my GPG key for email communication. This email key is
-      also signed with my former email key [0xce0ead7f07180c35].
-      [0xce0ead7f07180c35]: /keys/0xce0ead7f07180c35.asc
+      also signed with my former email key [0xce0ead7f07180c35](/keys/0xce0ead7f07180c35.asc).
     type: GPG
     longid: '0x5e86ec7730ded671'
     shortid: '30DED671'

@@ -15,6 +15,19 @@ sustain is exempt of tracker of any type:
 
 ## Installation
 
+### GPG keys
+
+The [key page](https://pujol.io/keys) is generated using the file `data/keys.yml`.
+This file was signed using the master with with:
+```sh
+gpg --armor --detach-sign --default-key 61F02B21BA2503A526345A40E0CC7D788DA0EBF2 -o content/keys/keys.yml.asc data/keys.yml
+```
+
+The signature be verified with:
+```sh
+gpg --verify content/keys/keys.yml.asc data/keys.yml 
+```
+
 ### GitLab CI
 
 This project's static Pages are built by [GitLab CI][ci],
