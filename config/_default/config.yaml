@@ -1,0 +1,30 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+baseURL: "/"
+defaultContentLanguage: en
+
+enableRobotsTXT: true
+paginate: 10
+summaryLength: 0
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true

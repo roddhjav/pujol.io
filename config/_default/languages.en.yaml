@@ -1,0 +1,30 @@
+languageCode: en
+languageName: English
+displayName: EN
+isoCode: en
+weight: 1
+rtl: false
+
+title: Alex
+
+dateFormat: 2 January 2006
+
+author:
+  name: Alexandre Pujol
+  image: img/avatar.png
+  headline: |
+    Cyber security reseach lead at [The Collaboratory](https://www.collaboratory.ie/).
+
+    Ph.D from [University College Dublin (Ireland)](https://www.ucd.ie/).
+
+    Email: [`BBD1 FEA3 F345 B8FC 72E8 5770 5E86 EC77 30DE D671`](/keys)
+
+    Code: [`06A2 6D53 1D56 C42D 6680  5049 C546 9996 F0DF 68EC`](/keys)
+  links:
+    - gitlab: https://gitlab.com/roddhjav
+    - github: https://github.com/roddhjav
+    - linkedin: https://linkedin.com/in/alexandrepujol
+    - twitter: https://twitter.com/roddhjav
+    - mastodon: https://mastodon.instance/@roddhjav
+    - keybase: https://keybase.io/roddhjav
+    - email: mailto:alexandre@pujol.io

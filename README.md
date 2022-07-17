@@ -4,14 +4,7 @@
 
 **https://pujol.io source code**
 
-This personal website uses a modified version of the [sustain][sustain-hugo]
-theme for [hugo][hugo]. More than a few personalisation changes, this version of
-sustain is exempt of tracker of any type:
-
-* No Google Analytics.
-* No Disqus.
-* No javascript.
-* No remote CSS and font. There are still present but loaded locally.
+This personal website uses the [congo] theme for [hugo].
 
 ## Installation
 
@@ -78,7 +71,7 @@ your site can be accessed under [localhost:1313][local].
 [online]: https://img.shields.io/website/https/pujol.io.svg?style=flat-square
 [release]: https://img.shields.io/github/release/roddhjav/pujol.io.svg?maxAge=600&style=flat-square
 [hugo]: https://gohugo.io/
-[sustain-hugo]: https://github.com/nurlansu/hugo-sustain
+[congo]: https://github.com/jpanther/congo
 [local]: http://localhost:1313/
 [ci]: https://about.gitlab.com/gitlab-ci/
 [hugodoc]: https://gohugo.io/overview/introduction/
