@@ -1,0 +1,66 @@
+title: My Projects
+source:
+
+  - title: apparmor.d
+    url: https://github.com/roddhjav/apparmor.d
+    description: |
+      Full set of AppArmor profiles (~ 1200 profiles)
+    tags: 
+      - linux
+      - security
+      - hardening
+      - apparmor
+      - mandatory-access-control
+      - apparmor-profiles 
+
+  - title: pass-import
+    url: https://github.com/roddhjav/pass-import
+    description: |
+      A pass extension for importing data from most of the existing password manager.
+    tags: 
+      - importer
+      - password-manager
+      - password
+      - import
+      - pass
+      - password-store
+      - pass-extension
+      - keepass-importer
+      - pimport 
+
+  - title: pass-tomb
+    url: https://github.com/roddhjav/pass-tomb
+    description: |
+      A pass extension that helps you to keep the whole tree of password encrypted inside a tomb.
+    tags: 
+      - password-manager
+      - secret-management
+      - tomb
+      - pass
+      - password-store
+      - pass-extension
+      - password-tomb 
+
+  - title: pass-audit
+    url: https://github.com/roddhjav/pass-audit
+    description: |
+      A pass extension for auditing your password repository.
+    tags: 
+      - password-manager
+      - password
+      - audit
+      - pass
+      - pass-extension
+      - haveibeenpwned
+      - password-audit 
+
+  - title: pass-update
+    url: https://github.com/roddhjav/pass-update
+    description: |
+      A pass extension that provides an easy flow for updating passwords.
+    tags: 
+      - password-manager
+      - password
+      - pass
+      - password-store
+      - pass-extension
