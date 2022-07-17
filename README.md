@@ -1,6 +1,6 @@
 # **https://pujol.io**
 
-[![][build]][link] [![][online]][domain] [![][release]][link]
+[![][build]][project] [![][online]][domain] [![][release]][project]
 
 **https://pujol.io source code**
 
@@ -66,8 +66,8 @@ your site can be accessed under [localhost:1313][local].
     SOFTWARE.
 
 [domain]: https://pujol.io
-[link]: https://gitlab.com/roddhjav/roddhjav.gitlab.io?style=flat-square
-[build]: https://gitlab.com/roddhjav/roddhjav.gitlab.io/badges/master/build.svg?style=flat-square
+[project]:  https://gitlab.com/roddhjav/roddhjav.gitlab.io
+[build]: https://gitlab.com/roddhjav/roddhjav.gitlab.io/badges/master/pipeline.svg?style=flat-square
 [online]: https://img.shields.io/website/https/pujol.io.svg?style=flat-square
 [release]: https://img.shields.io/github/release/roddhjav/pujol.io.svg?maxAge=600&style=flat-square
 [hugo]: https://gohugo.io/
