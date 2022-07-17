@@ -1,6 +1,8 @@
 ---
 title: My keys
 layout: keys
+tags:
+  - gpg
 ---
 
 These keys are attached to this page and are available on SKS server. You should

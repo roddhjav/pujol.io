@@ -1,7 +1,9 @@
 ---
-title: Research project
-description:
-layout: page
+title: Phd Thesis subject
+description: A Story of metadata
+layout: simple
+tags:
+  - phd
 ---
 
 ## A Story of metadata
@@ -28,9 +30,10 @@ However, the existing ORAM schemes are limited in terms of complexity
 and are therefore not practical for application in real-world storage providers.
 
 
+
 ## Acknowledgement
 
-This work is supported and funded by
+This work  was supported and funded by
 
 * [Irish Research Council][irc] *(grant GOIPG/2016/479)*, the mission of the
 Irish Research Council is to enable and sustain a vibrant research community in
@@ -38,8 +41,8 @@ Ireland by supporting excellent researchers in all disciplines.
 [#LoveIrishResearch](https://twitter.com/hashtag/LoveIrishResearch)
 * The [Lero][lero], the Irish Software Research Centre.
 
-<img src="irc.jpg" alt="irc" width="45%" align="left" />
-<img src="lero.png" alt="lero" width="45%" align="right" />
+[<img src="irc.jpg" alt="irc" width="45%" align="left" />][irc]
+[<img src="lero.png" alt="lero" width="45%" align="right" />][lero]
 
 [lero]: http://www.lero.ie/
 [irc]: http://www.research.ie/
