@@ -12,9 +12,9 @@ tags:
   - keys
   - gpg
 date: "2017-04-17"
-categories:
-  - encryption
 ---
+
+## Overview
 
 [Tomb][tomb] is a simple tool to manage encrypted storage on Linux using LUKS, dm-crypt, GPG and other well know Linux software. It generates encrypted storage folders to be opened and closed using their associated key files, which are also protected with a password chosen by the user.
 
@@ -30,7 +30,7 @@ Since [Tomb 2.4][tombrelease], Tomb supports asymmetric encryption of Tomb keys 
 
 The purpose of this blog post is to explain how use Tomb with the new support of GPG key.
 
-## Overview
+## Usage
 
 In order to create a tomb, there are three steps to follow.
 
@@ -97,7 +97,9 @@ tomb lock secret.tomb -k secret.tomb.key -gR 39D3991C
 tomb open secret.tomb -k secret.tomb.key -g
 ```
 
+{{< alert >}}
 **Warning:** Do not forget the `-g` option, otherwise tomb will act as if the tomb key was password encrypted.
+{{< /alert >}}
 
 
 ## Advanced features
