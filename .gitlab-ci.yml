@@ -1,12 +1,16 @@
 ---
 
-image: monachus/hugo
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+
+default:
+  before_script:
+    - apk add --update --no-cache git go
 
 test:
   script:
     - hugo
-  except:
-    - master
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
   script:
@@ -14,5 +18,5 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    - master
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
