@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+  <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+  </header>
+
+  <section class="flex flex-col max-w-full prose lg:flex-row dark:prose-invert mt-0">
+    <div class="min-w-0 min-h-0 max-w-prose">
+      <div class="!mb-9 text-xl lead">
+        {{ .Description }}
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-8">
+    {{ range $i, $el := .Site.Data.projects.source }}
+      <article class="pb-6">
+        <a class="flex" href="{{ .url }}">
+          <div class="mr-3 text-3xl text-neutral-300">
+            <img src="/projects/{{ .title }}.png" alt="logo" />
+          </div>
+          <div>
+            <h3 class="flex text-xl font-semibold">{{ .title }}</h3>
+            <p class="text-sm text-neutral-400">{{ .description | markdownify }}</p>
+          </div>
+        </a>
+        <br />
+      </article>
+    {{ end }}
+
+  <section class="max-w-full mt-6 prose dark:prose-invert">
+    {{ .Content | emojify }}
+  </section>
+
+{{ end }}

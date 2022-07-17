@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <article class="max-w-full">
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      {{ range $i, $el := .Site.Data.keys.source }}
+      <h2>{{ .title }}</h2>
+      <p>{{ .description | markdownify }}</p>
+      <pre><code>{{ .fingerprints }}</code></pre>
+      
+      {{ if eq .type "GPG" }}
+        <a class="px-4 py-2 !text-neutral !no-underline !rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+           href="/keys/{{ .longid }}.asc" role="button" >{{ .shortid }}</a>
+        <a class="px-4 py-2 !text-neutral !no-underline !rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+           href="https://pgp.mit.edu/pks/lookup?search={{ .longid }}&op=vindex&fingerprint=on"
+           role="button" >pgp.mit.edu</a>
+      {{ end }}
+      {{ end }}
+    </section>
+
+    <section class="max-w-full text-sm mt-6 prose dark:prose-invert">
+      {{ .Content | emojify }}
+    </section>
+  </article>
+{{ end }}
