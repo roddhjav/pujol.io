@@ -11,7 +11,7 @@ This personal website uses the [congo] theme for [hugo].
 ### GPG keys
 
 The [key page](https://pujol.io/keys) is generated using the file `data/keys.yml`.
-This file was signed using the master with with:
+This file was signed using the master key with:
 ```sh
 gpg --armor --detach-sign --default-key 61F02B21BA2503A526345A40E0CC7D788DA0EBF2 -o content/keys/keys.yml.asc data/keys.yml
 ```
