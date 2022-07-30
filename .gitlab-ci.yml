@@ -8,12 +8,14 @@ default:
 
 test:
   script:
+    - hugo mod get -u
     - hugo
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
   script:
+    - hugo mod get -u
     - hugo
   artifacts:
     paths:
