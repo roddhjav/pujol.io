@@ -4,7 +4,7 @@ source:
   - title: apparmor.d
     url: https://github.com/roddhjav/apparmor.d
     description: |
-      Full set of AppArmor profiles (~ 1200 profiles)
+      Full set of AppArmor profiles (~ 1400 profiles)
     tags: 
       - linux
       - security
