@@ -36,7 +36,9 @@ To work locally with this project, you'll have to follow the steps below:
 1. Add content
 1. Generate the website: `hugo` (optional)
 
-Read more at Hugo's [documentation][hugodoc].
+Read more at
+* Hugo's [documentation][hugodoc]
+* Congo's [documentation][congodoc]
 
 If you clone or download this project to your local computer and run `hugo server`,
 your site can be accessed under [localhost:1313][local].
@@ -75,3 +77,4 @@ your site can be accessed under [localhost:1313][local].
 [local]: http://localhost:1313/
 [ci]: https://about.gitlab.com/gitlab-ci/
 [hugodoc]: https://gohugo.io/overview/introduction/
+[congodoc]: https://jpanther.github.io/congo/docs/
