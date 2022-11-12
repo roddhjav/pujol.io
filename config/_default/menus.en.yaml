@@ -28,6 +28,10 @@ main:
     weight: 40
     url: /blog
 
+  - name: Pkg
+    weight: 50
+    url: https://pkg.pujol.io
+
 footer:
 
   - name: Tags
