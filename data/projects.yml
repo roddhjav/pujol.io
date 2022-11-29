@@ -16,7 +16,7 @@ source:
   - title: pass-import
     url: https://github.com/roddhjav/pass-import
     description: |
-      A pass extension for importing data from most of the existing password manager.
+      A pass extension for importing data from most existing password managers.
     tags: 
       - importer
       - password-manager
@@ -31,7 +31,7 @@ source:
   - title: pass-tomb
     url: https://github.com/roddhjav/pass-tomb
     description: |
-      A pass extension that helps you to keep the whole tree of password encrypted inside a tomb.
+      A pass extension that helps you keep the whole tree of passwords encrypted inside a Tomb.
     tags: 
       - password-manager
       - secret-management
