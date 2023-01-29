@@ -2,7 +2,7 @@ title: My Projects
 source:
 
   - title: apparmor.d
-    url: https://github.com/roddhjav/apparmor.d
+    url: https://apparmor.pujol.io/
     description: |
       Full set of AppArmor profiles (~ 1400 profiles)
     tags: 
