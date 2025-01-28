@@ -14,13 +14,11 @@ params:
     name: Alexandre Pujol
     image: img/avatar.png
     headline: |
-      Security reseach lead at [The Collaboratory](https://www.collaboratory.ie/).
+      Linux System Engineer at [Linagora](https://linagora.com/en/).
 
       Ph.D from [University College Dublin (Ireland)](https://www.ucd.ie/).
 
       My area of work includes **user privacy**, **secret management** and **system security**.
-
-      Email: [`BBD1 FEA3 F345 B8FC 72E8 5770 5E86 EC77 30DE D671`](/keys)
 
       Code: [`06A2 6D53 1D56 C42D 6680  5049 C546 9996 F0DF 68EC`](/keys)
     links:
